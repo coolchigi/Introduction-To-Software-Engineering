@@ -1,0 +1,34 @@
+
+***************************************************************************
+* Compilation
+***************************************************************************
+Executing: make clean
+Executing: make all
+Running: ./p1
+
+Can you please input the name, max health and damage for a fighter character
+Can you please input the name, max health and damage for a Orc character
+Thor 10
+Snarl 12
+Thor hits Snarl for 4
+Snarl hits Thor for 1
+Thor 9
+Snarl 8
+Thor hits Snarl for 3 damage 
+SnarlhitsThor for 2 damage 
+Thor 6
+Snarl 6
+
+Thor found,  2  marks
+Snarl found,  2  marks
+10 found,  2  marks
+12 found,  2  marks
+8 found,  2  marks
+9 found,  2  marks
+6 found,  2  marks
+
+
+***************************************************************************
+* Mark: 14/14
+***************************************************************************
+

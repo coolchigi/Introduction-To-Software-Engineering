@@ -1,0 +1,52 @@
+
+***************************************************************************
+* Compilation
+***************************************************************************
+Executing: make clean
+Executing: make all
+
+Testing Podcast class
+
+Executing: ./test
+Contents of the array: 
+Dogs  Episode number :1 Episode name: Episode Title: 0
+Dogs  Episode number :2 Episode name: Episode Title: 1
+Dogs  Episode number :3 Episode name: Episode Title: 2
+Dogs  Episode number :4 Episode name: Episode Title: 3
+Dogs  Episode number :5 Episode name: Episode Title: 4
+
+Podcast: Dogs
+Episode Name: Episode Title: 3 , Episode Number: 4
+Episode Content: Integer euismod lacus luctus magna. Quisque cursus, metus vitae pharetra auctor, sem massa mattis sem, at interdum magna augue eget diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi lacinia molestie dui. Praesent blandit dolor. Sed non quam. In vel mi sit amet augue congue elementum. Morbi in ipsum sit amet pede facilisis laoreet. Donec lacus nunc, viverra nec, blandit vel, egestas et, augue. Vestibulum tincidunt malesuada tellus. Ut ultrices ultrices enim. Curabitur sit amet mauris. Morbi in dui quis est pulvinar ullamcorper.
+
+Dogs found, 2 marks
+Episode Title: 3 found, 2 marks
+
+Testing Podcast destructor
+
+Executing: valgrind ./test
+
+All heap blocks were freed -- no leaks are possible found, 2 marks
+
+Testing Podcast deep copy
+
+Executing: ./test
+Contents of the array: 
+Cats  Episode number :1 Episode name: Episode Title: 5
+Cats  Episode number :2 Episode name: Episode Title: 6
+Cats  Episode number :3 Episode name: Episode Title: 7
+Cats  Episode number :4 Episode name: Episode Title: 8
+Cats  Episode number :5 Episode name: Episode Title: 9
+
+Podcast: Cats
+Episode Name: Episode Title: 8 , Episode Number: 4
+Episode Content: Vestibulum sapien. Proin quam. Etiam ultrices. Suspendisse in justo eu magna luctus suscipit. Sed lectus. Integer euismod lacus luctus magna. Quisque cursus, metus vitae pharetra auctor, sem massa mattis sem, at interdum magna augue eget diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi lacinia molestie dui. Praesent blandit dolor. Sed non quam. In vel mi sit amet augue congue elementum. Morbi in ipsum sit amet pede facilisis laoreet. 
+
+Cats found, 2 marks
+Vestibulum sapien found, 2 marks
+
+
+***************************************************************************
+* Mark: 10/10
+***************************************************************************
+

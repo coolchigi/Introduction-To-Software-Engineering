@@ -1,0 +1,64 @@
+
+***************************************************************************
+* Compilation
+***************************************************************************
+Executing: make clean
+Executing: make all
+
+Label test
+
+Executing: ./test
+Location ID: A1
+Product: Empty
+Quantity: 0
+Store Location Capacity: 20
+Location ID: A2
+Product: Empty
+Quantity: 0
+Store Location Capacity: 20
+Location ID: A3
+Product: Empty
+Quantity: 0
+Store Location Capacity: 20
+
+A1 found, 2 marks
+A2 found, 2 marks
+A3 found, 2 marks
+
+Add product test
+
+Executing: ./test
+Location ID: A1
+Product: beans
+Quantity: 10
+Store Location Capacity: 20
+
+beans found, 2 marks
+10 found, 2 marks
+
+Remove product test
+
+Executing: ./test
+Location ID: A1
+Product: beans
+Quantity: 3
+Store Location Capacity: 20
+
+beans found, 2 marks
+3 found, 2 marks
+
+Polymorphism test
+
+Executing: ./test
+Location ID: A1
+Product: beans
+Quantity: 10
+
+beans found, 2 marks
+10 found, 2 marks
+
+
+***************************************************************************
+* Mark: 18/18
+***************************************************************************
+
